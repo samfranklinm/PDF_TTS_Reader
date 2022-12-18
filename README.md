@@ -21,7 +21,7 @@ This program requires:
 
 - Python 3.5 or higher
 - The necessary Python libraries (listed above)
-- A PDF file to convert
+- A PDF file to read
 
 ## License
 Please see `license.md` for details.
