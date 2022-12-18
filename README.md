@@ -37,8 +37,8 @@ If you encounter any problems while running the program, here are some potential
 
 ## Future Plans
 
-- Adding support to convert the PDF into formats such as mp3, wav, etc.
-- Improving the quality of the TTS output.
-- Allowing users to choose different TTS voices that are available through the `pyttsx3` library.
-- Allowing users to customize the TTS reading speed.
-- Creating a Google Chrome extension.
+- [ ]  Adding support to convert the PDF into formats such as mp3, wav, etc.
+- [ ]  Improving the quality of the TTS output.
+- [ ]  Allowing users to choose different TTS voices that are available through the `pyttsx3` library.
+- [ ]  Allowing users to customize the TTS reading speed.
+- [ ]  Creating a Google Chrome extension.
