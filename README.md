@@ -2,7 +2,7 @@
 
 ## Description
 
-This Python program allows users to read PDFs using Text-to-Speech (TTS). 
+This custom yet simple Python program allows users to read PDFs using Text-to-Speech (TTS) using Python libraries listed below.
 
 ## Usage
 
