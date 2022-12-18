@@ -28,7 +28,7 @@ while True:
     # If so, ask user for page number and then extract the test from the page
     if pageOrNot == 'yes':
         pageNumber = int(
-            input('Ok, which page? (NOTE: Page numbers begin with 0) '))
+            input('Ok, which page? (NOTE: Page numbers begin with 0): '))
         if pageNumber <= numOfPages:
             try:
                 extractedText = pdfRead.getPage(pageNumber).extract_text()
