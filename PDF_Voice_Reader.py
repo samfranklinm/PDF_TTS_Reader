@@ -1,3 +1,6 @@
+# Created by Sam Jagan Mohan
+# Please see usage license for more details
+
 import PyPDF2
 import pyttsx3
 
