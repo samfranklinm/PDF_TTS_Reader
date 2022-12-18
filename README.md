@@ -24,7 +24,7 @@ This program requires:
 - A PDF file to convert
 
 ## License
-Please see the `license.md` for details.
+Please see `license.md` for details.
 
 ## Troubleshooting
 
