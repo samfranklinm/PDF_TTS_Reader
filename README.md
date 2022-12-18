@@ -23,6 +23,9 @@ This program requires:
 - The necessary Python libraries (listed above)
 - A PDF file to convert
 
+## License
+Please see the `license.md` for details.
+
 ## Troubleshooting
 
 If you encounter any problems while running the program, here are some potential solutions:
