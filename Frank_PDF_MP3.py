@@ -16,20 +16,25 @@ for i in range(0, pdfRead.numPages):
     numOfPages = i
 print('There are ', numOfPages, ' pages in this PDF.')
 
+# Ask user if there is a specific page that they would like to listen to
 pageOrNot = input(
     'Is there a specific page you want me to read? (yes or no):  ')
 cleanedUpText = ''
+
+# If so, ask user for page number and then extract the test from the page
 if pageOrNot == 'yes':
     pageNumber = int(input('Ok, which page? '))
     extractedText = pdfRead.getPage(pageNumber).extract_text()
     cleanedUpText = extractedText.strip().replace('/n', ' ')
     print(cleanedUpText)
+# Otherwise, extract text from all pages
 else:
     for pageNumber in range(pdfRead.numPages):
         extractedText = pdfRead.getPage(pageNumber).extract_text()
         cleanedUpText = extractedText.strip().replace('/n', ' ')
         print(cleanedUpText)
 
+# Read the extracted text to the user
 textToSpeech.say(cleanedUpText)
 print('Reading...')
 textToSpeech.runAndWait()
